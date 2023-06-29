@@ -1,0 +1,12 @@
+.fruit-container {
+  display: flex;
+  gap: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+@media (max-width: 850px) {
+  .fruit-container {
+    flex-direction: column;
+  }
+}
